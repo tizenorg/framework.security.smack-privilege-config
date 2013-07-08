@@ -1,6 +1,6 @@
 Name:       smack-privilege-config
 Summary:    SMACK rules for libprivilege
-Version:    1.0.2.TIZEN
+Version:    1.0.3.TIZEN
 Release:    1
 Group:      System/Security
 License:    Apache 2.0
