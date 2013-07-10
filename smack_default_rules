@@ -186,3 +186,4 @@ cbhm xorg w
 starter xorg w
 starter sys-assert::core rwx
 download-provider _ rwx
+ui-gadget::client _ rwx
