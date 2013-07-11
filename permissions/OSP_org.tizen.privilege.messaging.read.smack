@@ -1,4 +1,6 @@
+email-service ~APP~ r-x--
 ~APP~ msg-service rwx
+msg-service ~APP~ r-x--
 ~APP~ system::media rwaxt
 ~APP~ msg-service::read rw
 ~APP~ msg-service::db rw

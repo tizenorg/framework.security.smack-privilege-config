@@ -1,2 +1,3 @@
 ~APP~ msg-service rw
+msg-service ~APP~ r-x--
 ~APP~ msg-service::smstrigger rw
