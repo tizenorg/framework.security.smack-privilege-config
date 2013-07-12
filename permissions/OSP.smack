@@ -108,7 +108,7 @@ system::use_internet ~APP~ rw
 ~APP~ org.tizen.browser::vconf_public rw
 ~APP~ webkit2-efl::vconf r
 ~APP~ email-service rwx
-email-service ~APP~ rw
+email-service ~APP~ rwx--
 ~APP~ drmfw rw
 ~APP~ app-package::db rw
 ~APP~ _ rw

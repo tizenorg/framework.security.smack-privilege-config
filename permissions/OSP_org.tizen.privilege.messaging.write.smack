@@ -1,4 +1,3 @@
-email-service ~APP~ r-x--
 ~APP~ email-service::db rw
 ~APP~ email-service::write rw
 ~APP~ contacts-service rwx
