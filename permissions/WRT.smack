@@ -112,3 +112,4 @@ webkit2-extension ~APP~ rwxa
 org.tizen.data-provider-slave ~APP~ rwx--
 ~APP~ org.tizen.data-provider-master::utility rw---
 ~APP~ app-svc::db rw---
+~APP~ tts-server rwx--
