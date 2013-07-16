@@ -34,6 +34,8 @@ media-server ~APP~ rwxa-
 notification ~APP~ rwxa-
 ~APP~ notification::db rwxa-
 notification::db ~APP~ rwxa-
+~APP~ data-provider-master::notification rw---
+~APP~ data-provider-master::notification.client -w---
 ~APP~ pulseaudio rwxat
 ~APP~ pulseaudio::record r----
 ~APP~ push-service rwxa-
