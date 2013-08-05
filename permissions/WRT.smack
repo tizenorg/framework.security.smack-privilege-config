@@ -8,6 +8,7 @@
 bt-service ~APP~ rwxa-
 ~APP~ calendar-service w
 ~APP~ cbhm rwxa-
+cbhm ~APP~ rwxa-
 ~APP~ data-provider-master rwxa-
 ~APP~ data-provider-master::badge rw---
 ~APP~ data-provider-master::shortcut rw---
