@@ -7,6 +7,7 @@
 bt-service ~APP~ rwxa-
 ~APP~ calendar-service w
 ~APP~ cbhm rwxa-
+cbhm ~APP~ rwxa-
 ~APP~ data-provider-master rw
 ~APP~ data-provider-master::data rx
 ~APP~ data-provider-master::db rw
