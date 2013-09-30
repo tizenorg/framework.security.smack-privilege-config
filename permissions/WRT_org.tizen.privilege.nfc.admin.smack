@@ -1,2 +1,2 @@
 ~APP~ nfc-manager rwx
-~APP~ nfc-manager::admin w
+~APP~ nfc-manager::admin rw---
