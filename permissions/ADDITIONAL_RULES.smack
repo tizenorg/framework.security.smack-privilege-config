@@ -1,0 +1,5 @@
+~NPRUNTIME_PATH~ system::homedir rxat
+~NPRUNTIME_PATH~ xorg rw
+~NPRUNTIME_PATH~ crash-worker rwxa
+~NPRUNTIME_PATH~ sys-assert::core rwxat
+~NPRUNTIME_PATH~ syslogd rw
