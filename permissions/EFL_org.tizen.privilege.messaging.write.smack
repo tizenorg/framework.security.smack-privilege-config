@@ -1,0 +1,4 @@
+~APP~ msg-service rwx
+~APP~ msg-service::db rw
+~APP~ email-service::db rw
+~APP~ msg-service::smstrigger rw
