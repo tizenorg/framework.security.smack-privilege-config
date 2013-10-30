@@ -68,7 +68,6 @@ notification::db ~APP~ rwxa-
 ~APP~ nas9xepmna rwxa-
 nas9xepmna ~APP~ rwxa-
 ~APP~ wrt-security-daemon rwxa-
-~APP~ osp::datacontrol rwxat
 ~APP~ livebox.web-provider rwx--
 ~APP~ deviced rwxa-
 ~APP~ wrt-popup-wrt-runtime rwxa-

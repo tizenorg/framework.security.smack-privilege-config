@@ -67,7 +67,6 @@ tts-server ~APP~ rwxa-
 ~APP~ pkgmgr::db rw---
 ~APP~ syslogd rw---
 ~APP~ wrt-security-daemon rwxa-
-~APP~ osp::datacontrol rwxat
 ~APP~ deviced rwxa-
 ~APP~ privacy-manager::db rw
 ~APP~ wrt_launchpad_daemon rwxa
