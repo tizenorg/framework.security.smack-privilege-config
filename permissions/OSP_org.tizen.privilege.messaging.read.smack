@@ -1,8 +1,7 @@
-~APP~ msg-service rwx
-msg-service ~APP~ r-x--
 ~APP~ system::media rwaxt
 ~APP~ msg-service::read rw
 ~APP~ msg-service::db rw
 ~APP~ email-service::db rw
 ~APP~ contacts-service w
 contacts-service ~APP~ w
+~APP~ msg-service::smstrigger rw

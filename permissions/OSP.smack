@@ -119,3 +119,6 @@ org.tizen.data-provider-slave ~APP~ rwx--
 ~APP~ app-svc::db rw---
 ~APP~ nfc-manager -w---
 nfc-manager ~APP~ -w---
+~APP~ email-service::write rw
+~APP~ msg-service rwx--
+msg-service ~APP~ rwxat

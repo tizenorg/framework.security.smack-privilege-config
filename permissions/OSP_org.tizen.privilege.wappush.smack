@@ -1,5 +1,3 @@
-~APP~ msg-service rwa
-msg-service ~APP~ r-x--
 ~APP~ msg-service::db rw
 ~APP~ msg-service::wappush rw
 ~APP~ msg-service::write rw

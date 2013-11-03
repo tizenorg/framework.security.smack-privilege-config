@@ -1,5 +1,3 @@
-~APP~ msg-service rwx
-msg-service ~APP~ rwx
 ~APP~ org.tizen.message rwx
 org.tizen.message ~APP~ rwx
 ~APP~ org.tizen.email rwx

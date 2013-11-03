@@ -3,8 +3,6 @@
 ~APP~ contacts-service rwx
 contacts-service ~APP~ rwx--
 ~APP~ system::media rwaxt
-~APP~ msg-service rwx
-msg-service ~APP~ r-x--
 ~APP~ msg-service::db rw
 ~APP~ msg-service::write rw
 ~APP~ msg-service::read rw
