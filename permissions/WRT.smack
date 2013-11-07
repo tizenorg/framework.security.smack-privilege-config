@@ -69,6 +69,7 @@ notification::db ~APP~ rwxa-
 nas9xepmna ~APP~ rwxa-
 ~APP~ wrt-security-daemon rwxa-
 ~APP~ livebox.web-provider rwx--
+livebox.web-provider ~APP~ rwx--
 ~APP~ deviced rwxa-
 ~APP~ wrt-popup-wrt-runtime rwxa-
 ~APP~ privacy-manager::db rw
