@@ -1,3 +1,0 @@
-contacts-service ~APP_SHARED_DIR~ r-x--
-email-service ~APP_SHARED_DIR~ rwx--
-obexd ~APP_SHARED_DIR~ r-x--

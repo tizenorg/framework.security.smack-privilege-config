@@ -1,3 +1,0 @@
-~APP~ nfc-manager rwx
-~APP~ nfc-manager::common w
-~APP~ nfc-manager::tag w
