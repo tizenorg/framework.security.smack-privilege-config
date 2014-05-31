@@ -1,0 +1,6 @@
+~APP~ contacts-service rx
+~APP~ contacts-service::db rl
+~APP~ contacts-service::phonelog r
+~APP~ contacts-service::svc rl
+~APP~ contacts-service::vconf rl
+~APP~ contacts-service::vconf-private rl

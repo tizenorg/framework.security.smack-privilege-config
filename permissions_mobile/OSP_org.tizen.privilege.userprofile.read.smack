@@ -1,0 +1,4 @@
+~APP~ contacts-service -wx--
+contacts-service ~APP~ rwx--
+~APP~ contacts-service::svc r
+~APP~ libaccounts-svc::db rw

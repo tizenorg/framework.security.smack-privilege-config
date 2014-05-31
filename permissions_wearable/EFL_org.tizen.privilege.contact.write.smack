@@ -1,0 +1,6 @@
+~APP~ contacts-service wx
+~APP~ contacts-service::db wx
+~APP~ contacts-service::phonelog wx
+~APP~ contacts-service::svc w
+~APP~ contacts-service::vconf wx
+~APP~ contacts-service::vconf-private wx

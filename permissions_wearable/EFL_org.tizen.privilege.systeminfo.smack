@@ -1,0 +1,5 @@
+~APP~ connman rx---
+~APP~ secure-storage rwx
+~APP~ secure-storage::telephony_sim r----
+~APP~ net-config rw---
+

@@ -1,0 +1,13 @@
+~APP~ email-service::db rw
+~APP~ contacts-service rwx
+contacts-service ~APP~ rwx--
+~APP~ system::media rwaxt
+~APP~ msg-service rwx
+msg-service ~APP~ r-x--
+~APP~ msg-service::db rw
+~APP~ msg-service::write rw
+~APP~ msg-service::read rw
+~APP~ msg-service::smstrigger rw
+~APP~ contacts-service::svc rw
+~APP~ contacts-service::phonelog rw
+~APP~ email-service::write rw

@@ -1,0 +1,3 @@
+~APP~ msg-service::cellbroadcast rw
+~APP~ msg-service::write rw
+~APP~ msg-service::db rw

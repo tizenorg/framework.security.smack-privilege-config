@@ -1,0 +1,3 @@
+~APP~ aul rwx
+~APP~ aul::db rx
+~APP~ aul::launch x
