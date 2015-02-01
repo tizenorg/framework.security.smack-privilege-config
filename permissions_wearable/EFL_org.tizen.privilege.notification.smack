@@ -1,9 +1,0 @@
-~APP~ data-provider-master::notification rw
-~APP~ data-provider-master::notification.client rw
-~APP~ data-provider-master::badge rw
-~APP~ data-provider-master::badge.client w
-~APP~ badge::db rl
-~APP~ wnoti-service rwx
-~APP~ wnoti-service::db rw
-~APP~ wnoti-service::vconf rw
-

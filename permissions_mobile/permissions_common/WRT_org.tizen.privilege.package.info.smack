@@ -1,0 +1,4 @@
+~APP~ ail::db r-x--l
+~APP~ osp-installer::db r----l
+~APP~ pkgmgr::db r-x--l
+~APP~ pkgmgr::info r----l

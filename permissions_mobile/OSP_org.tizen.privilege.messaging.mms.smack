@@ -1,4 +1,0 @@
-~APP~ system::media rwaxt
-~APP~ msg-service::db rw
-~APP~ msg-service::write rw
-~APP~ msg-service::read rw

@@ -1,0 +1,5 @@
+~APP~ device::hwcodec rw----
+~APP~ privilege::tizen::recorder rw----
+~APP~ pulseaudio::record r-----
+~APP~ stt-server rwx---
+~APP~ system::vconf_multimedia rw----

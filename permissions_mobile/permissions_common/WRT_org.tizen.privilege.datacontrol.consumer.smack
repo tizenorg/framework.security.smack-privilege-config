@@ -1,0 +1,4 @@
+~APP~ aul::launch --x---
+~APP~ osp::datacontrol rwx---
+~APP~ security-server::api-data-share rw----
+~APP~ security-server::api-open-for-privileged rw----

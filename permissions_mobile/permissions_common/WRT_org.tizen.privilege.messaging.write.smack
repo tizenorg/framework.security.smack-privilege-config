@@ -1,0 +1,14 @@
+~APP~ contacts-service rwx---
+~APP~ contacts-service::phonelog rw----
+~APP~ contacts-service::svc rw----
+~APP~ email-service::db rw----
+~APP~ email-service::write rw----
+~APP~ msg-service rwx---
+~APP~ msg-service::db rw----
+~APP~ msg-service::read rw----
+~APP~ msg-service::write rw----
+~APP~ system::media rwxat-
+~APP~ telephony_framework::api_modem r-----
+~APP~ telephony_framework::api_network r-----
+~APP~ telephony_framework::api_sim r-----
+contacts-service ~APP~ rw----

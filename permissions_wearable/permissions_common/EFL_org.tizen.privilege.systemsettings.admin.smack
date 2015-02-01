@@ -1,0 +1,5 @@
+~APP~ org.tizen.setting::default-resources r-x---
+~APP~ privilege::tizen::systemsettings.admin rw----
+~APP~ system::vconf_inhouse rw----
+~APP~ system::vconf_setting rw----
+~APP~ system::vconf_system rw----

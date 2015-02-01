@@ -1,0 +1,2 @@
+~APP~ privilege::tizen::alarm.set rw----
+~APP~ alarm-server::alarm -w----

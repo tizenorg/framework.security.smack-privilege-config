@@ -1,6 +1,6 @@
 Name:       smack-privilege-config
 Summary:    SMACK rules for libprivilege
-Version:    1.0.4.SLP
+Version:    1.0.8
 Release:    1
 Group:      System/Security
 License:    Apache 2.0
@@ -16,77 +16,36 @@ SMACK rules package to control privilege of in-house application
 %setup -q
 
 %build
-## Build: Wearable ############################################################
-%if "%{_repository}" == "wearable"
-ln -s permissions_wearable permissions
-cp smack_default_rules_wearable smack_default_rules 
-
-%cmake . -DCMAKE_BUILD_TYPE=%{?build_type:%build_type} \
-	-DDEVICE_PROFILE="wearable"
-%else
-## Build: Mobile ##############################################################
-
-ln -s permissions_mobile permissions
-cp smack_default_rules_mobile smack_default_rules
-
-%cmake . -DCMAKE_BUILD_TYPE=%{?build_type:%build_type} \
-	-DDEVICE_PROFILE="mobile"
+%if %{?tizen_profile_name} == "wearable"
+        __PROFILE_TYPE="WEARABLE"
+%elseif %{?tizen_profile_name} == "mobile"
+        __PROFILE_TYPE="MOBILE"
 %endif
-## Build: END #################################################################
+
+%cmake . -DCMAKE_BUILD_TYPE=%{?build_type:%build_type} \
+	 -DPROFILE_TYPE="${__PROFILE_TYPE}"
 
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/license
+mkdir -p %{buildroot}/usr/share/privilege-control
+mkdir -p %{buildroot}/etc/smack-app/accesses.d
 cp LICENSE %{buildroot}/usr/share/license/%{name}
 cp -a %{SOURCE1} %{buildroot}%{_datadir}/
 %make_install
 
 %post
-## Post: Wearable #############################################################
-%if "%{_repository}" == "wearable"
-
-if [ ! -e "/usr/share/privilege-control" ]
-then
-    mkdir -p /usr/share/privilege-control/
-fi
-
-if [ ! -e "/opt/etc/smack-app/accesses.d" ]
-then
-    mkdir -p /opt/etc/smack-app/accesses.d
-fi
 
 if which api_feature_loader >/dev/null; then
     api_feature_loader --verbose
 else
     echo api_feature_loader not present
 fi
-%else
-## Post: Mobile ###############################################################
-if [ ! -e "/usr/share/privilege-control" ]
-then
-    mkdir -p /usr/share/privilege-control/
-fi
-
-if [ ! -e "/opt/etc/smack-app/accesses.d" ]
-then
-    mkdir -p /opt/etc/smack-app/accesses.d
-fi
-
-%endif
-## Post: END ##################################################################
 
 %files
-## File: Wearable #############################################################
-%if "%{_repository}" == "wearable"
 %{_datarootdir}/privilege-control/*
-/opt/etc/smack/accesses.d/*
+%{_sysconfdir}/smack/accesses.d/*
 %manifest %{_datadir}/%{name}.manifest
 %{_datadir}/license/%{name}
-%else
-## File: Mobile ###############################################################
-%{_datarootdir}/privilege-control/*
-/opt/etc/smack/*
-%{_datadir}/license/%{name}
-%manifest %{_datadir}/%{name}.manifest
-%endif
-## File: END ##################################################################
+%dir %{_datadir}/privilege-control
+%dir /etc/smack-app/accesses.d

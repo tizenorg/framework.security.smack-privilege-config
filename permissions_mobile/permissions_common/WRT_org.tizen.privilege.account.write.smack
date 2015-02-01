@@ -1,0 +1,2 @@
+~APP~ libaccounts-svc rw----
+~APP~ libaccounts-svc::db rw----

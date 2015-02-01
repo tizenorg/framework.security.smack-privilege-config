@@ -1,6 +1,0 @@
-~APP~ wcamera-transfer-server rxl
-~APP~ wcamera-transfer-server::vconf rw
-~APP~ device::video rw
-~APP~ device::camera rw
-~APP~ pulseaudio::record r----
-

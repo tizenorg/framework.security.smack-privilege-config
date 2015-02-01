@@ -1,0 +1,5 @@
+~APP~ ~ALL_APPS~ rwx---
+~APP~ ~GROUP_PATH~ rwx---
+~APP~ ~PUBLIC_PATH~ rwx---
+~APP~ ~SETTINGS_PATH~ rwx---
+~APP~ privilege::tizen::antivirus rw----

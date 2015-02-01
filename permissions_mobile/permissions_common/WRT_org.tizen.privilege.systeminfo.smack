@@ -1,0 +1,4 @@
+~APP~ connman rw----
+~APP~ net-config rw----
+~APP~ telephony_framework::api_modem r-----
+~APP~ telephony_framework::api_sim r-----

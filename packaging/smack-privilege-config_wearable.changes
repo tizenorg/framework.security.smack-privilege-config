@@ -1,2 +1,0 @@
-* Mon Jul  1 2013 Zbigniew Jasinski - 1.0.0.SLP-1
-- Exclude *.smack and *.dac files from libprivilege-control to new smack-privilege-config package.

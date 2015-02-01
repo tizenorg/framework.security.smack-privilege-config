@@ -1,0 +1,4 @@
+~APP~ connman rw----
+~APP~ connman::set rw----
+~APP~ net-config rw----
+~APP~ privilege::tizen::network.set rw----

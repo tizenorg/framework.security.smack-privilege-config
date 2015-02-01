@@ -1,0 +1,4 @@
+~APP~ contacts-service rwx---
+~APP~ contacts-service::phonelog rw----
+~APP~ contacts-service::svc rw----
+contacts-service ~APP~ rw----

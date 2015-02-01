@@ -1,0 +1,6 @@
+~APP~ privilege::tizen::wifidirect rw----
+~APP~ wifi-direct rw----
+~APP~ wifi-direct::admin rw----
+~APP~ wifi-direct::discover rw----
+~APP~ wifi-direct::info rw----
+~APP~ wifi-direct::native rw----

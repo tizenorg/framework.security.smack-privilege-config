@@ -1,0 +1,2 @@
+~APP~ location_fw::client rwx---
+~APP~ privilege::tizen::location rw----

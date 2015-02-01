@@ -1,0 +1,3 @@
+~APP~ secure-storage::telephony_sim r-----
+~APP~ telephony_framework::api_sim r-----
+~APP~ telephony_framework::vconf r----l

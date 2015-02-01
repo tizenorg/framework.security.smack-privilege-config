@@ -1,0 +1,2 @@
+~APP~ location_fw::client rwx---
+~APP~ location_fw::vconf r-x--l

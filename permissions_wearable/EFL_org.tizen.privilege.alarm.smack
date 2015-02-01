@@ -1,3 +1,0 @@
-~APP~ alarm-server::alarm rw
-~APP~ alarm-server rwx--
-~APP~ libslp-alarm::db rwxat

@@ -1,0 +1,4 @@
+~APP~ device::camera rw----
+~APP~ mm_qcamera_daemon -w----
+~APP~ privilege::tizen::camera rw----
+~APP~ system::vconf_multimedia rw----

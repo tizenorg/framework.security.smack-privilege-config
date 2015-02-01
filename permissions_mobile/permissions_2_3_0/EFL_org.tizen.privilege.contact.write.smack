@@ -1,0 +1,2 @@
+~APP~ contacts-service::svc -w----
+~APP~ privilege::tizen::contact.write rw----

@@ -1,0 +1,2 @@
+~APP~ calendar-service -wx---
+~APP~ calendar-service::svc rw----

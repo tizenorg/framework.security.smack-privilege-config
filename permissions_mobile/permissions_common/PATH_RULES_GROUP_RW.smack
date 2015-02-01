@@ -1,0 +1,4 @@
+contacts-service ~APP_SHARED_DIR~ r-x---
+email-service ~APP_SHARED_DIR~ r-x---
+obexd ~APP_SHARED_DIR~ r-x---
+ui-gadget::client ~APP_SHARED_DIR~ rwx-t-

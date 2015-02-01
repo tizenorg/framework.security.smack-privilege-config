@@ -1,0 +1,2 @@
+~APP~ deviced::led rw----
+~APP~ privilege::tizen::led rw----
