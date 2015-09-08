@@ -1,0 +1,3 @@
+~APP~ app-svc::db rwxa--
+~APP~ aul::launch --x---
+~APP~ privilege::tizen::appmanager.launch rw----

@@ -1,0 +1,2 @@
+~APP~ privilege::tizen::screenshot rw----
+~APP~ xorg::screencapture r-----

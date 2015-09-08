@@ -1,0 +1,6 @@
+~APP~ connman rw----
+~APP~ connman::get rw----
+~APP~ net-config rw----
+~APP~ privilege::tizen::network.get rw----
+~APP~ telephony_framework::api_ps_public rw----
+~APP~ telephony_framework::properties rw----

@@ -1,0 +1,6 @@
+~APP~ contacts-service rwx---
+~APP~ contacts-service::phonelog r-----
+~APP~ contacts-service::svc r-----
+~APP~ telephony_framework::api_modem r-----
+~APP~ telephony_framework::api_sim r-----
+contacts-service ~APP~ rw----

@@ -1,0 +1,5 @@
+~APP~ msg-service rwx---
+~APP~ msg-service::db r----l
+~APP~ msg-service::read rw----
+~APP~ msg-service::vconf r----l
+~APP~ privilege::tizen::message.read rw----

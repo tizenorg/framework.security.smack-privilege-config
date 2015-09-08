@@ -1,0 +1,2 @@
+~APP~ deviced::reboot rw----
+~APP~ privilege::tizen::reboot rw----

@@ -1,0 +1,5 @@
+~APP~ browser-provider rw----
+~APP~ browser-provider::history rw----
+~APP~ privilege::tizen::web-history.admin rw----
+
+~APP~ browser-provider::tab rw----

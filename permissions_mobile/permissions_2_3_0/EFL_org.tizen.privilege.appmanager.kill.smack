@@ -1,0 +1,2 @@
+~APP~ aul::terminate --x---
+~APP~ privilege::tizen::appmanager.kill rw----

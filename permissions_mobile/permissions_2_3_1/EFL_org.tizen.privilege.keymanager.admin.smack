@@ -1,0 +1,2 @@
+~APP~ key-manager::api-control -w----
+~APP~ privilege::tizen::keymanager.admin rw----

@@ -1,0 +1,2 @@
+~APP~ contacts-service::phonelog -w----
+~APP~ privilege::tizen::callhistory.write rw----

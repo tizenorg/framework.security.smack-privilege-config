@@ -1,0 +1,3 @@
+~APP~ system::vconf_multimedia rw----
+
+~APP~ syspopup::db r----l

@@ -1,0 +1,4 @@
+~APP~ nfc-manager rwx---
+~APP~ smartcard-service rwx---
+nfc-manager ~APP~ rw----
+~APP~ privilege::tizen::secureelement rw----

@@ -1,0 +1,10 @@
+~APP~ email::vconf_badge rw----
+~APP~ email::vconf_display_content rw----
+~APP~ email::vconf_notification rw----
+~APP~ email::vconf_rep_type rw----
+~APP~ email::vconf_ringtone_path rw----
+~APP~ email::vconf_use_default_ringtone rw----
+~APP~ email::vconf_vibration rw----
+~APP~ email::vconf_vip_use_default_ringtone rw----
+~APP~ email::vconf_vip_vibration rw----
+~APP~ privilege::tizen::email.admin rw----

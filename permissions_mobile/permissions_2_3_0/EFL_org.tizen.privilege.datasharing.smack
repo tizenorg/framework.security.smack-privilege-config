@@ -1,0 +1,2 @@
+~APP~ privilege::tizen::datasharing rw----
+~APP~ security-server::api-open-for-privileged rw----

@@ -1,0 +1,3 @@
+~APP~ privilege::tizen::internet rw----
+~APP~ system::use_internet rw----
+system::use_internet ~APP~ -w----

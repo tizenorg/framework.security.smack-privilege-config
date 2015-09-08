@@ -1,0 +1,15 @@
+~NPRUNTIME_PATH~ crash-worker rwxa--
+~NPRUNTIME_PATH~ sys-assert::core rwxat-
+~NPRUNTIME_PATH~ syslogd rw----
+~NPRUNTIME_PATH~ system::homedir r-xat-
+~NPRUNTIME_PATH~ xorg rw----
+bt_share ~GROUP_PATH~ r-x---
+bt_share ~PUBLIC_PATH~ r-x---
+contacts-service ~GROUP_PATH~ r-x---
+contacts-service ~PUBLIC_PATH~ r-x---
+email-service ~GROUP_PATH~ r-x---
+email-service ~PUBLIC_PATH~ r-x---
+obexd ~GROUP_PATH~ r-x---
+obexd ~PUBLIC_PATH~ r-x---
+ui-gadget::client ~GROUP_PATH~ rwxat-
+ui-gadget::client ~PUBLIC_PATH~ rwxat-

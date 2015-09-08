@@ -1,0 +1,3 @@
+~APP~ bluez rw----
+~APP~ bt-service::platform -w----
+~APP~ bt-service::public -w----

@@ -1,0 +1,2 @@
+~APP~ deviced::power rw----
+~APP~ privilege::tizen::power rw----

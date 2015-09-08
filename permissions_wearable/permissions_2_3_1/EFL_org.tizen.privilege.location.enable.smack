@@ -1,0 +1,3 @@
+~APP~ location_fw::client rwx---
+~APP~ location_fw::vconf -w----
+~APP~ privilege::tizen::location.enable rw----
