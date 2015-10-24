@@ -1,0 +1,3 @@
+~APP~ privilege::tizen::minicontrol.provider rw----
+org.tizen.quickpanel ~APP~ rwx---
+org.tizen.lockscreen ~APP~ rwx---

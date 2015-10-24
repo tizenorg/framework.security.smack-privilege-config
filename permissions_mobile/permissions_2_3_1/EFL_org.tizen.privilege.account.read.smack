@@ -2,3 +2,4 @@
 ~APP~ libaccounts-svc r-----
 ~APP~ libaccounts-svc::check_read r-----
 ~APP~ libaccounts-svc::db r----l
+~APP~ tizen::vconf::account r----l

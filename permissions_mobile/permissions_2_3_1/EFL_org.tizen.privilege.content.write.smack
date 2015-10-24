@@ -1,4 +1,4 @@
 ~APP~ media-data::db rw----
 ~APP~ media-server rwx---
 ~APP~ privilege::tizen::content.write rw----
-media-server ~APP~ -w----
+media-server ~APP~ rw----

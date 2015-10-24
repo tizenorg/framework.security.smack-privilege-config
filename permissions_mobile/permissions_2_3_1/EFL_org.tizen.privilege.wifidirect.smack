@@ -4,3 +4,4 @@
 ~APP~ wifi-direct::discover rw----
 ~APP~ wifi-direct::info rw----
 ~APP~ wifi-direct::native rw----
+~APP~ tizen::vconf::wifidirect r----l

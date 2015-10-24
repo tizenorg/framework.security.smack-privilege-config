@@ -1,3 +1,4 @@
 ~APP~ contacts-service rwx---
 ~APP~ contacts-service::svc r-x---
 contacts-service ~APP~ rw----
+~APP~ privilege::tizen::contact.read rw----

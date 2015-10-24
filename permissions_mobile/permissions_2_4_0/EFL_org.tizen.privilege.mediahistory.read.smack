@@ -1,0 +1,2 @@
+~APP~ privilege::tizen::mediahistory.read rw----
+~APP~ context::mediahistory r----l

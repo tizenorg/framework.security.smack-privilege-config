@@ -1,3 +1,5 @@
 ~APP~ nfc-manager rwx---
 ~APP~ nfc-manager::common -w----
 ~APP~ nfc-manager::tag rw----
+~APP~ tizen::vconf::nfc r----l
+~APP~ privilege::tizen::nfc.tag rw----

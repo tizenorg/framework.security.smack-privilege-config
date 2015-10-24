@@ -2,7 +2,6 @@ system::use_internet connman w
 _ system::use_internet w
 system::use_internet _ w
 _ system::homedir arwxt
-_ system::vconf arwxt
 _ system::camera arwxt
 _ system::app_logging arwx
 _ system::sys_logging arwx
@@ -13,7 +12,6 @@ _ system::video arwx
 _ system::radio arwx
 _ system::system_bklight arwx
 _ system::system_torch arwx
-_ ail::db rw
 _ deviced rwx
 _ sensor-framework rwx
 _ media-data::db rw
@@ -58,7 +56,6 @@ _ wrt-commons::db_wrt_custom_handler rw
 _ system::media arwxt
 _ sys-assert::core arwxt
 
-aul ail::db rw
 aul org.tizen.calculator rx
 aul org.tizen.indicator rw
 aul org.tizen.menu-screen rx
@@ -75,9 +72,8 @@ aul notification::db rw
 aul settings rx
 aul sound-server w
 aul system::homedir rwxat
-aul system::vconf rwxat
 aul xorg w
-org.tizen.volume device::app_logging w
+org.tizen.volume device::app_logging rw
 dbus browser-provider r
 dbus bt-service rx
 dbus download-provider r
@@ -89,7 +85,6 @@ dbus oma-dm-agent r
 dbus oma-ds-agent r
 dbus org.tizen.sat-ui r
 dbus pkgmgr-server r
-dbus smartcard-service r
 dbus system::homedir rwxat
 dbus telepathy r
 dbus xorg w
@@ -107,3 +102,4 @@ pulseaudio dbus rwx
 system::use_internet media-server w
 telephony_framework::db system::use_internet w
 webkit2-efl net-config r
+

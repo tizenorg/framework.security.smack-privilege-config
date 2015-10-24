@@ -1,0 +1,2 @@
+~APP~ isf::manager rwx---
+~APP~ privilege::tizen::imemanager rw----

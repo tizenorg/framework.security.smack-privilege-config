@@ -9,3 +9,4 @@
 ~APP~ msg-service::write rw----
 ~APP~ system::media rwxat-
 contacts-service ~APP~ rw----
+~APP~ privilege::tizen::messaging.send rw----

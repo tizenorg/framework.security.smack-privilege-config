@@ -1,1 +1,2 @@
-~APP~ system::vconf_inhouse rw----
+~APP~ tizen::vconf::setting rw----
+~APP~ privilege::tizen::setting rw----

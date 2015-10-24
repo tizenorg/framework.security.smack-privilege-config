@@ -1,2 +1,3 @@
 ~APP~ ~ALL_APPS~ r-x---
 ~APP~ ~SETTINGS_PATH~ rwx---
+~APP~ privilege::tizen::appsetting rw----

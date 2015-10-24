@@ -1,0 +1,3 @@
+~APP~ bluez rw----
+~APP~ bt-service::public -w----
+~APP~ privilege::tizen::bluetooth rw----

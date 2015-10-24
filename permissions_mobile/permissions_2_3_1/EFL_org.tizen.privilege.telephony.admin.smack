@@ -10,3 +10,4 @@
 ~APP~ telephony_framework::api_sms rwx---
 ~APP~ telephony_framework::api_ss rwx---
 ~APP~ telephony_framework::properties rw----
+~APP~ tizen::vconf::telephony::admin rw----

@@ -1,0 +1,3 @@
+contacts-service ~APP_SHARED_DIR~ r-x--
+obexd ~APP_SHARED_DIR~ r-x--
+bt_share ~APP_SHARED_DIR~ r-x--

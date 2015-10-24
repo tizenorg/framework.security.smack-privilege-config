@@ -1,0 +1,2 @@
+~APP~ privilege::tizen::externalstorage.appdata rw----
+~APP~ system::ext_storage_appdata r-x---

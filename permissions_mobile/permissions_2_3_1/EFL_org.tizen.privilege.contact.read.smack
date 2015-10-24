@@ -1,2 +1,3 @@
 ~APP~ contacts-service::svc r-x---
 ~APP~ privilege::tizen::contact.read rw----
+~APP~ tizen::vconf::contact r----l

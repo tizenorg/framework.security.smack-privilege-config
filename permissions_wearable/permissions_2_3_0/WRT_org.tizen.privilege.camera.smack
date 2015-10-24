@@ -1,0 +1,5 @@
+~APP~ device::camera rw
+~APP~ mm_qcamera_daemon -w----
+~APP~ pulseaudio::record r----
+~APP~ tizen::vconf::camcorder rw----
+~APP~ privilege::tizen::camera rw----

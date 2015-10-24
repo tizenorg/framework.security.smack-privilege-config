@@ -1,3 +1,4 @@
 ~APP~ privilege::tizen::account.write rw----
 ~APP~ libaccounts-svc rw----
 ~APP~ libaccounts-svc::db rw----
+~APP~ tizen::vconf::account rw----

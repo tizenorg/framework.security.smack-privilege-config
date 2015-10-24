@@ -1,0 +1,3 @@
+~APP~ tizen::vconf::location r----l
+~APP~ location_fw::client rwx---
+~APP~ privilege::tizen::location rw----

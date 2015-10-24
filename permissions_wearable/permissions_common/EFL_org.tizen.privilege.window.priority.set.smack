@@ -1,0 +1,2 @@
+~APP~ e17::notification rw----
+~APP~ privilege::tizen::window.priority.set rw----

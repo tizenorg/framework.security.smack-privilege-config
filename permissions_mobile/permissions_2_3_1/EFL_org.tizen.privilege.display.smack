@@ -1,2 +1,3 @@
 ~APP~ deviced::display rw----
 ~APP~ privilege::tizen::display rw----
+~APP~ tizen::vconf::display r----l

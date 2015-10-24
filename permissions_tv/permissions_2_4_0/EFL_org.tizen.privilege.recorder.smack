@@ -1,0 +1,7 @@
+~APP~ device::hwcodec rw----
+~APP~ privilege::tizen::recorder rw----
+~APP~ pulseaudio::record r-----
+~APP~ stt-server rwx---
+~APP~ tizen::vconf::camcorder rw----
+~APP~ vc-server rwx---
+~APP~ voice-control-elm rwx---

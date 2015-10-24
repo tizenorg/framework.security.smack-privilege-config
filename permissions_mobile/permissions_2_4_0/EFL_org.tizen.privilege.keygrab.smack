@@ -1,0 +1,2 @@
+~APP~ keygrab::hwkey rw----
+~APP~ privilege::tizen::keygrab rw----

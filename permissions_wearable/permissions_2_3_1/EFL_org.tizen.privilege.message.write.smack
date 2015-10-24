@@ -1,3 +1,0 @@
-~APP~ msg-service rwx---
-~APP~ msg-service::write rw----
-~APP~ privilege::tizen::message.write rw----

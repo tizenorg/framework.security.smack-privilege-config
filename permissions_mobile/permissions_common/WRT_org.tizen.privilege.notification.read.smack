@@ -5,3 +5,4 @@
 ~APP~ data-provider-master::notification rw----
 ~APP~ data-provider-master::notification.client rw----
 ~APP~ notification::db rw----
+~APP~ privilege::tizen::notification.read rw----

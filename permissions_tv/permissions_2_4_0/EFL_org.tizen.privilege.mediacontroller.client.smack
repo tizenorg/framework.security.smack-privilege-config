@@ -1,0 +1,5 @@
+~APP~ privilege::tizen::mediacontroller.client rw----
+~APP~ mediacontroller rw----
+mediacontroller ~APP~ rw----
+~APP~ mediacontroller::db r----l
+~APP~ mediacontroller::svc -w----

@@ -1,0 +1,2 @@
+~APP~ privilege::tizen::appmanager.kill.bgapp rw----
+~APP~ aul::terminatebgapp --x---

@@ -1,0 +1,6 @@
+~APP~ data-provider-master::shortcut rw----
+~APP~ data-provider-master::shortcut.shortcut -w----
+~APP~ data-provider-master::shortcut.livebox -w----
+~APP~ data-provider-master::utility -w----
+~APP~ privilege::tizen::shortcut rw----
+~APP~ shortcut-service::db r----l

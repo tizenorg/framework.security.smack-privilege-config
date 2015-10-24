@@ -1,4 +1,0 @@
-~APP~ privilege::tizen::volume.set rw----
-~APP~ system::vconf_multimedia rw----
-
-~APP~ syspopup::db r----l

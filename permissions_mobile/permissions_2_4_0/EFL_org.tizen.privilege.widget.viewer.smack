@@ -1,0 +1,2 @@
+~APP~ privilege::tizen::widget.viewer rw----
+~APP~ data-provider-master::client rw----

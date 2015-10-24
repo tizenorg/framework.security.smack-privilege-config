@@ -1,0 +1,6 @@
+~APP~ email-service rwx---
+~APP~ email-service::db rw----
+~APP~ email-service::write rw----
+~APP~ email-service::email_data rwaxt-
+~APP~ privilege::tizen::email rw----
+~APP~ secure-storage::email-service r-----

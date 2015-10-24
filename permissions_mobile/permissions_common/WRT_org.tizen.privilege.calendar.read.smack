@@ -1,2 +1,3 @@
 ~APP~ calendar-service rwx---
 ~APP~ calendar-service::svc r-----
+~APP~ privilege::tizen::calendar.read rw----

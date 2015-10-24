@@ -2,3 +2,4 @@
 ~APP~ nfc-manager::p2p rw----
 ~APP~ nfc-manager::tag rw----
 ~APP~ privilege::tizen::nfc rw----
+~APP~ tizen::vconf::nfc r----l

@@ -1,2 +1,4 @@
+~APP~ key-manager::api-ocsp -w----
 ~APP~ key-manager::api-storage -w----
 ~APP~ privilege::tizen::keymanager rw----
+key-manager ~APP~ r-x---

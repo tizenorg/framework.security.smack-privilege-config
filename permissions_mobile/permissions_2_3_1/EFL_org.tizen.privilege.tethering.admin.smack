@@ -1,5 +1,5 @@
 ~APP~ mobileap-agent rw----
 ~APP~ privilege::tizen::tethering.admin rw----
 ~APP~ secure-storage::tethering rw----
-~APP~ system::vconf_network rw----
 ~APP~ tethering::dbus-access rw----
+~APP~ tizen::vconf::tethering::admin rw----

@@ -1,1 +1,4 @@
 ~APP~ pkgmgr::svc rwx---
+~APP~ pkgmgr::db r-x--l
+~APP~ pkgmgr::info r----l
+~APP~ privilege::tizen::packagemanager.install rw----

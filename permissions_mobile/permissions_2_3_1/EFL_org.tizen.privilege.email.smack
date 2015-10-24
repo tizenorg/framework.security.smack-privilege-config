@@ -1,4 +1,3 @@
-~APP~ email::vconf_default_account_id rw----
 ~APP~ email-service rwx---
 ~APP~ email-service::db rw----
 ~APP~ email-service::write rw----

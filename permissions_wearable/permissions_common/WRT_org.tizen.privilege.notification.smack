@@ -5,3 +5,5 @@
 ~APP~ data-provider-master::notification rw----
 ~APP~ data-provider-master::notification.client rw----
 ~APP~ notification::db rw----
+~APP~ pkgmgr::db --x---
+~APP~ privilege::tizen::notification rw----

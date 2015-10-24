@@ -1,0 +1,11 @@
+~APP~ email-service rwx---
+~APP~ email-service::db rw----
+~APP~ email-service::email_data rwaxt
+~APP~ msg-service rwx---
+~APP~ msg-service::db rw----
+~APP~ msg-service::read rw----
+~APP~ system::media rwxat-
+~APP~ tizen::vconf::message r----l
+email-service ~APP~ rx---
+msg-service ~APP~ rwx---
+~APP~ privilege::tizen::messaging.read rw----

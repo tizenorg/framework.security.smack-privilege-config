@@ -1,2 +1,3 @@
 ~APP~ nfc-manager::card_emul rw----
+~APP~ tizen::vconf::nfc r----l
 ~APP~ privilege::tizen::nfc.cardemulation rw----

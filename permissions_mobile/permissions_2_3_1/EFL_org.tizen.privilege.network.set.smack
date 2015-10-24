@@ -2,3 +2,4 @@
 ~APP~ connman::set rw----
 ~APP~ net-config rw----
 ~APP~ privilege::tizen::network.set rw----
+~APP~ tizen::vconf::network rw----

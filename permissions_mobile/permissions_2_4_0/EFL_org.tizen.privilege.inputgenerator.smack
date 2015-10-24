@@ -1,0 +1,2 @@
+~APP~ privilege::tizen::inputgenerator rw----
+~APP~ xorg::inputgen rw----

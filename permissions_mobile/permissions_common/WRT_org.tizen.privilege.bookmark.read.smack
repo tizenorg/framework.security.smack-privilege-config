@@ -1,1 +1,2 @@
 ~APP~ browser-provider::bookmark r-----
+~APP~ privilege::tizen::bookmark.read rw----

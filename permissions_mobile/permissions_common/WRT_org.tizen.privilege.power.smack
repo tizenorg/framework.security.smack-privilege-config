@@ -1,2 +1,4 @@
 ~APP~ device::bklight rw----
 ~APP~ deviced::display rw----
+~APP~ privilege::tizen::power rw----
+~APP~ tizen::vconf::display r----l

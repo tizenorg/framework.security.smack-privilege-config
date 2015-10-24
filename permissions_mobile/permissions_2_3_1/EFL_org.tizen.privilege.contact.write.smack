@@ -1,3 +1,4 @@
 ~APP~ contacts-service::svc -w----
 ~APP~ privilege::tizen::contact.write rw----
+~APP~ tizen::vconf::contact rw----
 contacts-service ~APP~ r-x---

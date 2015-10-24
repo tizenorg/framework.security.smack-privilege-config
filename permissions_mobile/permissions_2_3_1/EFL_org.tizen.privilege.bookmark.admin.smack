@@ -1,3 +1,4 @@
-~APP~ browser-provider rw----
+~APP~ browser-provider rwx---
 ~APP~ browser-provider::bookmark rw----
 ~APP~ privilege::tizen::bookmark.admin rw----
+browser-provider ~APP~ rw----

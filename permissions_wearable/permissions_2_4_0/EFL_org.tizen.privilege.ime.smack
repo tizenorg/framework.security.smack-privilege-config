@@ -1,0 +1,3 @@
+~APP~ isf::ime rw----
+~APP~ isf rwx---
+~APP~ privilege::tizen::ime rw----

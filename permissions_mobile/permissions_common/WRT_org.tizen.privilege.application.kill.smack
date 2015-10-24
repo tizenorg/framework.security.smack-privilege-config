@@ -1,1 +1,2 @@
 ~APP~ aul::terminate -x----
+~APP~ privilege::tizen::application.kill rw----

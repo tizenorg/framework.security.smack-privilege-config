@@ -1,1 +1,2 @@
-~APP~ sensord::bio rw----
+~APP~ sensord::bio rw
+~APP~ privilege::tizen::healthinfo rw----

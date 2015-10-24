@@ -1,4 +1,0 @@
-~APP~ ail::db r-x--l
-~APP~ pkgmgr::db r-x--l
-~APP~ pkgmgr::info r----l
-~APP~ privilege::tizen::packagemanager.info rw----

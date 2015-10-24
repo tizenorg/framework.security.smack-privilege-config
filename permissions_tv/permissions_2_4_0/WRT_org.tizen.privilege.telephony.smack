@@ -1,0 +1,12 @@
+~APP~ privilege::tizen::telephony rw----
+~APP~ telephony_framework::api_call r-----
+~APP~ telephony_framework::api_modem r-----
+~APP~ telephony_framework::api_network r-----
+~APP~ telephony_framework::api_phonebook r-----
+~APP~ telephony_framework::api_sap r-----
+~APP~ telephony_framework::api_sat r-----
+~APP~ telephony_framework::api_sim r-----
+~APP~ telephony_framework::api_sms r-----
+~APP~ telephony_framework::api_ss r-----
+~APP~ telephony_framework::properties rw----
+~APP~ tizen::vconf::telephony::admin r----l

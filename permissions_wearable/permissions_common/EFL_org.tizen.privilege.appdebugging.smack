@@ -1,0 +1,5 @@
+sdbd ~APP~ rwx---
+swap ~APP~ rwx---
+debug-launchpad ~APP~ rwx---
+system::debugging_network ~APP~ -w----
+~APP~ system::debugging_network -w----

@@ -1,3 +1,5 @@
 ~APP~ libaccounts-svc r----l
 ~APP~ libaccounts-svc::check_read r-----
 ~APP~ libaccounts-svc::db r----l
+~APP~ tizen::vconf::account r----l
+~APP~ privilege::tizen::account.read rw----

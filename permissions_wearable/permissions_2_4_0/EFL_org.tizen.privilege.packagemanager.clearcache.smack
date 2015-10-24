@@ -1,0 +1,2 @@
+~APP~ privilege::tizen::packagemanager.clearcache rw----
+~APP~ pkgmgr::cache -w----

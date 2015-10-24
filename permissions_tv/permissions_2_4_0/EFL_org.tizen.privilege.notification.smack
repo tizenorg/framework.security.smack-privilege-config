@@ -1,0 +1,10 @@
+~APP~ badge::db r----l
+~APP~ org.tizen.quickpanel rwx---
+~APP~ data-provider-master::badge -w----
+~APP~ data-provider-master::badge.client -w----
+~APP~ data-provider-master::badge.manager -w----
+~APP~ data-provider-master::notification -w----
+~APP~ data-provider-master::notification.client rw----
+~APP~ notification::db r----l
+~APP~ privilege::tizen::notification rw----
+org.tizen.quickpanel ~APP~ rwx---

@@ -1,0 +1,4 @@
+~APP~ privilege::tizen::volume.set rw----
+
+~APP~ syspopup::db r----l
+~APP~ tizen::vconf::volume::set rw----

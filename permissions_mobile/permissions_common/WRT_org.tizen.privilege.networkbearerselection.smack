@@ -1,1 +1,2 @@
 ~APP~ connman::set rw----
+~APP~ privilege::tizen::networkbearerselection rw----

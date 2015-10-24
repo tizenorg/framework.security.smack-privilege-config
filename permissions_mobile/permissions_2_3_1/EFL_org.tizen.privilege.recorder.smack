@@ -2,4 +2,4 @@
 ~APP~ privilege::tizen::recorder rw----
 ~APP~ pulseaudio::record r-----
 ~APP~ stt-server rwx---
-~APP~ system::vconf_multimedia rw----
+~APP~ tizen::vconf::camcorder rw----
