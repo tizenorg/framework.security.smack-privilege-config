@@ -7,7 +7,6 @@
 ~APP~ csc-feature r-----
 ~APP~ data-provider-master::provider rw----
 ~APP~ data-provider-master::data r--x--
-~APP~ data-provider-master::db r----l
 ~APP~ data-provider-master rw----
 data-provider-master::bin ~APP~ rw----
 ~APP~ dbus rw----
@@ -37,6 +36,7 @@ cbhm ~APP~ r-x---
 dbus ~APP~ rwx---
 e17 ~APP~ -w----
 isf ~APP~ rwx---
+launchpad ~APP~ r-x---
 pkgmgr ~APP~ rwx---
 pkgmgr-server ~APP~ rwx---
 
@@ -48,8 +48,11 @@ pkgmgr-server ~APP~ rwx---
 ~APP~ tizen::vconf::partner::rw rw----
 ~APP~ tizen::vconf::partner::r::platform::rw r----l
 ~APP~ tizen::vconf::camcorder r----l
+~APP~ tizen::vconf::location r----l
+~APP~ tizen::vconf::location::enable r----l
 ~APP~ tizen::vconf::setting r----l
 ~APP~ tizen::vconf::setting::admin r----l
+~APP~ tizen::vconf::tethering::admin r----l
 ~APP~ tizen::vconf::volume::set r----l
 xorg ~APP~ rwx---
 ~APP~ ca-certificates::ssl-certs rx

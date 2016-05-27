@@ -8,7 +8,6 @@
 ~APP~ dbus rw----
 ~APP~ data-provider-master::provider rw----
 ~APP~ data-provider-master::data r--x--
-~APP~ data-provider-master::db r----l
 ~APP~ data-provider-master rw----
 data-provider-master::bin ~APP~ rw----
 ~APP~ device::app_logging rw----
@@ -33,10 +32,13 @@ data-provider-master::bin ~APP~ rw----
 ~APP~ webkit2-efl rwx---
 ~APP~ xorg -w----
 org.tizen.indicator ~APP~ rwx---
+org.tizen.quickpanel ~APP~ rwx---
+org.tizen.lockscreen ~APP~ rwx---
 cbhm ~APP~ r-x---
 dbus ~APP~ rwx---
 e17 ~APP~ -w----
 isf ~APP~ rwx---
+launchpad ~APP~ r-x---
 pkgmgr ~APP~ rwx---
 pkgmgr-server ~APP~ rwx---
 

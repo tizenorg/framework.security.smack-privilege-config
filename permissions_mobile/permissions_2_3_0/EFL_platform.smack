@@ -8,7 +8,6 @@
 ~APP~ csc-feature r-----
 ~APP~ data-provider-master::provider rw----
 ~APP~ data-provider-master::data r--x--
-~APP~ data-provider-master::db r----l
 ~APP~ data-provider-master rw----
 data-provider-master::bin ~APP~ rw----
 ~APP~ device::app_logging rw----
@@ -37,6 +36,7 @@ cbhm ~APP~ r-x---
 dbus ~APP~ rwx---
 e17 ~APP~ -w----
 isf ~APP~ rwx---
+launchpad ~APP~ r-x---
 pkgmgr-server ~APP~ rwx---
 pkgmgr ~APP~ rwx---
 
