@@ -1,0 +1,5 @@
+debug-launchpad ~APP~ r-x---
+download-provder ~APP~ rwx---
+launchpad-loader ~APP~ r-x---
+org.tizen.indicator ~APP~ r-x---
+pkgmgr-server ~APP~ rwx---

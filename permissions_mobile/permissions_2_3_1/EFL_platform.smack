@@ -9,7 +9,6 @@
 ~APP~ data-provider-master::provider rw----
 ~APP~ data-provider-master::data r--x--
 ~APP~ data-provider-master::share rwaxt-
-~APP~ data-provider-master::db r----l
 ~APP~ data-provider-master rw----
 data-provider-master::bin ~APP~ rw----
 ~APP~ device::app_logging rw----
